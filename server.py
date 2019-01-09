@@ -48,4 +48,4 @@ def upload_file():
     '''.format(session=SESSION, project=PROJECT)
 
 
-app.run(port=8080, threaded=True)
+app.run(port=8095, threaded=True, debug=False)
